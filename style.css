@@ -55,9 +55,11 @@
     align-items: center;
 
 }
-.subi1:hover{
-    cursor: pointer;
+
+.subi1 a{
     color: rgb(236, 227, 227);
+    text-decoration: none;
+
 }
 
 .subi1{
