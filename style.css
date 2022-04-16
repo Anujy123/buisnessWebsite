@@ -161,7 +161,7 @@
 
 .container4{
     overflow: hidden;
-     /* border: 2px solid black; */
+     border: 2px solid black;
     width: 100vw;
     height: 350px;
     display: grid;
@@ -176,7 +176,7 @@
 }
 
 .item6{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     height: 150px;
     width: 23vw;
     display: flex;
@@ -184,7 +184,7 @@
    align-items: center;
 }
 .subi5{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 4vw;
     height: 50px;
     cursor: pointer;
@@ -195,7 +195,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     /* border: 2px solid black; */
+     border: 2px solid black;
     width: 15vw;
     height: 20px;
     cursor: pointer;
@@ -205,7 +205,7 @@
 
 .subi7{
     font-family: 'Poppins', sans-serif;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 22vw;
     height: 70px;
 }
