@@ -279,7 +279,7 @@
     } */
 
     .container1{
-        /* justify-content: space-evenly; */
+        
        flex-direction: column;
         height: 230px;
 
@@ -290,6 +290,7 @@
         transform: none;
         font-size: 36px;
         height: 55px;
+        transform: translateX(-50px);
 
     }
 
@@ -371,7 +372,7 @@
 
 }
 .subi5{
-    width: 18vw;
+    width: 16vw;
     height: 50px;
 }
 .imgw{
