@@ -1,13 +1,18 @@
 // alert('hello world')
 
-// this is to add a welcome massage to the viewers 
-var music = new Audio('1.mp3')
+// this is hamburger icon javascript  
 
-// if (music.paused) {
-//     music.play()
-// }
+
+let item1 = document.getElementById("togglehider1")
+let item2 = document.getElementById("togglehider2")
+
+item1.addEventListener('click',()=>{
+   item2.classList.toggle("active")
+    
+})
 
 // this is to make show and hide button in container 2 
+var music = new Audio ('1.mp3')
 let paragraph = document.getElementById("para")
 
 if (paragraph.style.display != "none") {

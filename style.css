@@ -19,8 +19,15 @@
     align-items: center;
 
 } 
+.hamburger{
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: row; */
+}
 .item1{
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #f2ad5f;
     height: 50px;
@@ -38,6 +45,16 @@
 .item1:hover{
     cursor: pointer;
     color: rgb(236, 227, 227);
+}
+.subicon{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: none;
+
+}
+.subicon img{
+    width: 50px;
 }
 
 

@@ -177,9 +177,11 @@
     }
 
     .item2{
+        
         transform: none;
         width: 70vw;
         height: 30px;
+        
     }
     
     
@@ -281,7 +283,8 @@
     .container1{
         
        flex-direction: column;
-        height: 230px;
+       height: fit-content;
+        
 
         
     }
@@ -290,16 +293,35 @@
         transform: none;
         font-size: 36px;
         height: 55px;
-        transform: translateX(-50px);
+        
 
     }
+    .subicon{
+        display: block;
+       margin: 0px 20px;
+       background-color: transparent;
+       color: coral;
+    }
+    
+    
+    
 
     .item2{
         transform: none;
         width: 80vw;
-        height: 150px;
-       flex-wrap: wrap;
+        height: 210px;
+       flex-direction: column;
 
+    }
+    .item2{
+        display: none;
+    }
+
+    .item2.active{
+       
+        display: block;
+        text-align: center;
+        
     }
     
     
