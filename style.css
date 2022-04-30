@@ -24,6 +24,17 @@
     display: flex;
     /* flex-direction: row; */
 }
+ .subicon .fa-bars{
+font-size: 32px;
+}
+.fa  {
+    padding: 2px;
+    
+    width: 50px;
+    text-align: center;
+    /* text-decoration: none; */
+    margin: 5px 2px;
+}
 .item1{
     display: flex;
     justify-content: center;
